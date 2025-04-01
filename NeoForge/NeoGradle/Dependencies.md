@@ -30,7 +30,7 @@ repositories {
 dependencies {
     // ...
 
-    // Для заданного <group>:<name>:<version>:<classifier (по умолчанию нет)>
+    // Для заданного <group>:<name>:<version>:<classifier (по умолчанию None)>
     //   с расширением <ext (по умолчанию jar)>
     // Артефакты в flat directories будут разрешаться в следующем порядке:
     // - <name>-<version>.<ext>
@@ -50,3 +50,5 @@ dependencies {
 
 > **Примечание:**
 > Имя группы может быть любым, но не должно быть пустым для записей flat directory, так как оно не проверяется при разрешении файла артефакта.
+---
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./NeoGradle Configurations/Run Configurations.md">Конфигурации запуска</a></td><td align="center">Следующий раздел<br><a href="./Dependencies/Non-Minecraft Dependencies.md">Зависимости, не относящиеся к Minecraft</a></td></tr></table></div>
