@@ -139,7 +139,7 @@ modId = "examplemod2"
 
 | Свойство | Тип    | По умолчанию     | Описание                                   | Пример           |
 | :------: | :----: | :--------------: | :----------------------------------------- | :--------------- |
-| `file`   | string | **обязательный** | См. [Добавление AT](../../advanced/accesstransformers#добавление-at). | `file="at.cfg"` |
+| `file`   | string | **обязательный** | См. [Добавление AT](../Advanced%20Topics/Access%20Transformers.md#adding-ats). | `file="at.cfg"` |
 
 ### Свойства конфигурации Mixin
 
