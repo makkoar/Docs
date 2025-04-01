@@ -4,7 +4,7 @@ NeoGradle имеет множество конфигураций, которые
 
 ## Включение Access Transformers
 
-[Access Transformers](https://docs.neoforged.net/docs/advanced/accesstransformers) (трансформеры доступа) могут расширять видимость или изменять флаг `final` классов, методов и полей Minecraft.
+<a href="../Advanced Topics/Access Transformers.md">Access Transformers</a> (трансформеры доступа) могут расширять видимость или изменять флаг `final` классов, методов и полей Minecraft.
 
 Чтобы включить Access Transformers в производственной среде (production), вы можете указать конфигурационный файл(ы) в блоке `accessTransformers`:
 
