@@ -101,4 +101,4 @@ publications {
 }
 ```
 ---
-<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./Non-Minecraft%20dependencies.md">Зависимости, не относящиеся к Minecraft</a></td></tr></table></div>
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./Non-Minecraft dependencies.md">Зависимости, не относящиеся к Minecraft</a></td><td align="center">Следующий раздел<br><a href="../Parchment.md">Parchment</a></td></tr></table></div>
