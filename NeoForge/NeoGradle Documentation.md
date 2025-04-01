@@ -44,4 +44,4 @@ dependencies {
 > **Примечание:**
 > [MDK NeoForge](https://github.com/neoforged/MDK) устанавливает версию NeoForge через файл [gradle.properties](https://github.com/neoforged/MDK/blob/a52ce16c8a1dd2d656edac482376f33385fe912c/gradle.properties#L19). Актуальную версию NeoForge можно найти в нашем [Списке проектов](https://projects.neoforged.net/neoforged/neoforge).
 ---
-<div align="center"><table border="1"><tr><td>Следующий раздел<br><a href="./NeoGradle/NeoGradle Configurations.md">Конфигурация NeoGradle</a></td></tr></table></div>
+<div align="center"><table border="1"><tr><td align="center">Следующий раздел<br><a href="./NeoGradle/NeoGradle Configurations.md">Конфигурация NeoGradle</a></td></tr></table></div>
