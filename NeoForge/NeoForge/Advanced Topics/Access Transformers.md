@@ -4,6 +4,7 @@
 
 [Документацию по спецификации](https://github.com/NeoForged/AccessTransformers/blob/main/FMLAT.md) можно посмотреть на GitHub NeoForged.
 
+<a id="adding-ats"></a>
 ## Добавление AT
 
 Добавить Access Transformer в ваш проект мода так же просто, как добавить одну строку в ваш `build.gradle`:
