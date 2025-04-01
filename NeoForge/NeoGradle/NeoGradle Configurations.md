@@ -32,3 +32,4 @@ file="META-INF/accesstransformer.cfg"
 file="accesstransformer_extras.cfg"
 ```
 ---
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="../NeoGradle Documentation.md">Документация NeoGradle</a></td><td align="center">Следующий раздел<br><a href="./Run Configurations.md">Конфигурации запуска</a></td></tr></table></div>
