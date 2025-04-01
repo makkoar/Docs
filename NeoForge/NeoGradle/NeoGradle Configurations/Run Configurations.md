@@ -68,6 +68,5 @@ runs.configureEach {
     modSource project.sourceSets.main
 }
 ```
-
 ---
-<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="../NeoGradle Configurations.md">Конфигурация NeoGradle</a></td></tr></table></div>
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="../NeoGradle Configurations.md">Конфигурация NeoGradle</a></td><td align="center">Следующий раздел<br><a href="../Dependencies.md">Зависимости</a></td></tr></table></div>
