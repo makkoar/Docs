@@ -8,10 +8,10 @@
 
 Документация, относящаяся к экосистеме NeoForged (NeoForge и NeoGradle).
 
-| Проект    | Документация                                                               | Карта Документации                                          |
-| :-------- | :------------------------------------------------------------------------- | :---------------------------------------------------------- |
-| NeoForge  | [Документация NeoForge](./NeoForge/NeoForge%20Documentation.md)            | [Карта Документации](./NeoForge/Documentation%20Map.md)     |
-| NeoGradle | [Документация NeoGradle](./NeoGradle/NeoGradle%20Documentation.md)         | [Карта Документации](./NeoGradle/Documentation%20Map.md)    |
+| Проект    | Документация                                                            | Карта Документации                                                     |
+| :-------- | :---------------------------------------------------------------------- | :--------------------------------------------------------------------- |
+| NeoForge  | [Документация NeoForge](./NeoForge/NeoForge%20Documentation.md)         | [Карта Документации](./NeoForge/Documentation%20Map.md)                |
+| NeoGradle | [Документация NeoGradle](./NeoForge/NeoGradle%20Documentation.md)       | [Карта Документации](./NeoForge/NeoGradle/NeoGradle%20Documentation%20Map.md) |
 
 ---
 
