@@ -70,4 +70,4 @@ runs.configureEach {
 ```
 
 ---
-<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./NeoGradle Configurations.md">Конфигурация NeoGradle</a></td></tr></table></div>
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="../NeoGradle Configurations.md">Конфигурация NeoGradle</a></td></tr></table></div>
