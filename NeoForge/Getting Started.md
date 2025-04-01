@@ -56,4 +56,4 @@
 > **Совет:**
 > Всегда тестируйте свой мод в среде выделенного сервера. Это касается и [модов только для клиента](../Concepts/Sides.md), поскольку важно убедиться, что они не вызывают проблем при загрузке на стороне сервера.
 ---
-<div align="center"><table><tr><td align="center">Следующий раздел<br><a href="./Mod%20Files.md">Файлы мода</a></td></tr></table></div>
+<div align="center"><table><tr><td align="center">Следующий раздел<br><a href="./NeoForge/Getting%20Started/Mod%20Files.md">Файлы мода</a></td></tr></table></div>
