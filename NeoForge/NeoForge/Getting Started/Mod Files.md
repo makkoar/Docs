@@ -219,7 +219,5 @@ public class ExampleModClient {
 ### `lowcodefml`
 
 `lowcodefml` — это загрузчик языка, используемый как способ распространения пакетов данных и пакетов ресурсов в виде модов без необходимости точки входа в коде. Он указан как `lowcodefml`, а не `nocodefml`, для незначительных дополнений в будущем, которые могут потребовать минимального кодирования.
-
-```
 ---
-<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./Getting Started.md">Начало работы</a></td><td align="center">Следующий раздел<br><a href="./Structuring Your Mod.md">Структурирование вашего мода</a></td></tr></table></div>
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="../Getting Started.md">Начало работы</a></td><td align="center">Следующий раздел<br><a href="./Structuring Your Mod.md">Структурирование вашего мода</a></td></tr></table></div>
