@@ -106,9 +106,6 @@ public class EventHandler {
 > **Опасно:**
 > Если вы будете слушать `abstract` событие, ваша игра вылетит, так как это никогда не то, что вам нужно. Всегда нужно слушать одно из подсобытий.
 
-*Диаграмма иерархии событий (Event -> BlockEvent -> BlockDropsEvent; Event -> EntityEvent -> LivingEvent -> PlayerEvent -> CanPlayerSleepEvent)*
-*(Представлено схематично, так как Markdown не поддерживает диаграммы Mermaid/SVG напрямую)*
-
 ```mermaid
 graph TD;
     Event --> BlockEvent;
@@ -118,8 +115,8 @@ graph TD;
     LivingEvent --> PlayerEvent;
     PlayerEvent --> CanPlayerSleepEvent;
 
-    classDef red fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef blue fill:#ccf,stroke:#333,stroke-width:2px;
+    classDef red fill:#47251F,stroke:#333,stroke-width:2px;
+    classDef blue fill:#1F1F47,stroke:#333,stroke-width:2px;
     class Event,BlockEvent,EntityEvent,LivingEvent,PlayerEvent red;
     class BlockDropsEvent,CanPlayerSleepEvent blue;
 ```
@@ -160,9 +157,9 @@ public void mobDespawn(MobDespawnEvent event) {
 
 ### События для Конкретной Стороны
 
-Некоторые события вызываются только на одной [стороне](../concepts/sides). Распространенными примерами являются различные события рендеринга, которые вызываются только на клиенте. Поскольку события только для клиента обычно должны обращаться к другим частям кодовой базы Minecraft, существующим только на клиенте, их необходимо регистрировать соответствующим образом.
+Некоторые события вызываются только на одной [стороне](../Concepts/Sides.md). Распространенными примерами являются различные события рендеринга, которые вызываются только на клиенте. Поскольку события только для клиента обычно должны обращаться к другим частям кодовой базы Minecraft, существующим только на клиенте, их необходимо регистрировать соответствующим образом.
 
-Обработчики событий, использующие `IEventBus#addListener()`, должны проверять текущую физическую сторону через `FMLEnvironment.dist` или параметр `Dist` в конструкторе вашего мода и добавлять слушателя в отдельном классе только для клиента, как описано в статье о [сторонах](../concepts/sides).
+Обработчики событий, использующие `IEventBus#addListener()`, должны проверять текущую физическую сторону через `FMLEnvironment.dist` или параметр `Dist` в конструкторе вашего мода и добавлять слушателя в отдельном классе только для клиента, как описано в статье о [сторонах](../Concepts/Sides.md).
 
 Обработчики событий, использующие `@EventBusSubscriber`, могут указывать сторону как параметр `value` аннотации, например `@EventBusSubscriber(value = Dist.CLIENT, modid = "yourmodid")`.
 
@@ -179,11 +176,11 @@ public void mobDespawn(MobDespawnEvent event) {
 Жизненный цикл обычно следует такому порядку:
 
 *   Вызывается конструктор мода. Регистрируйте свои обработчики событий здесь или на следующем шаге.
-*   Вызываются все `@EventBusSubscriber`'ы.
+*   Вызываются все `@EventBusSubscriber`.
 *   Вызывается `FMLConstructModEvent`.
-*   Вызываются события реестра, включая [`NewRegistryEvent`](../concepts/registries#custom-registries), [`DataPackRegistryEvent.NewRegistry`](../concepts/registries#custom-datapack-registries) и, для каждого реестра, [`RegisterEvent`](../concepts/registries#registerevent).
+*   Вызываются события реестра, включая [`NewRegistryEvent`](../Concepts/Registries.md#пользовательские-реестры), [`DataPackRegistryEvent.NewRegistry`](../Concepts/Registries.md#пользовательские-реестры-пакетов-данных) и, для каждого реестра, [`RegisterEvent`](../Concepts/Registries.md#registerevent).
 *   Вызывается `FMLCommonSetupEvent`. Здесь происходит различная прочая настройка.
-*   Вызывается настройка для [конкретной стороны](../concepts/sides): `FMLClientSetupEvent`, если на физическом клиенте, и `FMLDedicatedServerSetupEvent`, если на физическом сервере.
+*   Вызывается настройка для [конкретной стороны](../Concepts/Sides.md): `FMLClientSetupEvent`, если на физическом клиенте, и `FMLDedicatedServerSetupEvent`, если на физическом сервере.
 *   Обрабатываются `InterModComms` (см. ниже).
 *   Вызывается `FMLLoadCompleteEvent`.
 
@@ -206,6 +203,5 @@ public void mobDespawn(MobDespawnEvent event) {
 > **Предупреждение:**
 > Планируется, что большинство этих событий будут перенесены на игровую шину событий в будущей версии.
 
----
 ---
 <div align="center"><table border="1"><tr><td align="center">Предыдущий раздел<br><a href="./Sides.md">Стороны</a></td><td align="center">Следующий раздел<br><a href="../blocks/Blocks.md">Блоки</a></td></tr></table></div>
