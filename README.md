@@ -10,7 +10,7 @@
 
 | Проект    | Документация                                                            | Карта Документации                                                            |
 | :-------- | :---------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
-| NeoForge  | [Документация NeoForge](./NeoForge/Getting%20Started.md)                | [Карта Документации](./NeoForge/Documentation%20Map.md)                       |
+| NeoForge  | [Документация NeoForge](./NeoForge/Getting%20Started.md)                | [Карта Документации](./NeoForge/NeoForge/NeoForge%20Documentation%20Map.md)                       |
 | NeoGradle | [Документация NeoGradle](./NeoForge/NeoGradle%20Documentation.md)       | [Карта Документации](./NeoForge/NeoGradle/NeoGradle%20Documentation%20Map.md) |
 
 ---
