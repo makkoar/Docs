@@ -101,5 +101,4 @@ NeoForge использует адаптированную систему semver
 Maven, система, используемая для хостинга зависимостей, использует систему версионирования, которая в некоторых деталях отличается от semver (хотя общий шаблон `major.minor.patch` сохраняется). Связанная система [Диапазонов версий Maven (Maven Versioning Range, MVR)](https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html) используется в некоторых местах в NeoForge (см. [выше](#neoforge)). При выборе схемы версионирования убедитесь, что она совместима с MVR, иначе моды не смогут указывать зависимость от конкретных версий вашего мода!
 
 ---
-
-<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./Structuring%20Your%20Mod.md">Структурирование вашего мода</a></td><td align="center">Следующий раздел<br><a href="../Documentation%20Map.md">Карта Документации</a></td></tr></table></div>
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./Structuring%20Your%20Mod.md">Структурирование вашего мода</a></td><td align="center">Следующий раздел<br><a href="../Concepts/Registries.md">Реестры</a></td></tr></table></div>
