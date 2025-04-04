@@ -89,7 +89,7 @@ public ExampleMod(IEventBus modBus) {
 ```
 
 > **Информация:**
-> Существуют специализированные варианты `DeferredRegister` для блоков, предметов и компонентов данных, которые предоставляют вспомогательные методы: [`DeferredRegister.Blocks`](../Blocks.md##вспомогательные-методы-deferredregisterblocks), [`DeferredRegister.Items`](../../items/Items.md#deferredregisteritems) и [`DeferredRegister.DataComponents`](../../items/datacomponents.md#creating-custom-data-components) соответственно.
+> Существуют специализированные варианты `DeferredRegister` для блоков, предметов и компонентов данных, которые предоставляют вспомогательные методы: [`DeferredRegister.Blocks`](../Blocks.md#вспомогательные-методы-deferredregisterblocks), [`DeferredRegister.Items`](../../items/Items.md#deferredregisteritems) и [`DeferredRegister.DataComponents`](../../items/datacomponents.md#creating-custom-data-components) соответственно.
 
 ### `RegisterEvent`
 
