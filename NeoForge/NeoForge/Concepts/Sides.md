@@ -95,4 +95,4 @@ public class ExampleModDedicatedServer {
 > Обычно ожидается, что моды будут работать на любой стороне. Поэтому, если вы разрабатываете мод только для клиента, вы должны убедиться, что он корректно функционирует на физическом клиенте и не вызывает ошибок (или бездействует) при попытке запуска на физическом сервере.
 
 ---
-<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./Registries.md">Реестры</a></td><td align="center">Следующий раздел<br><a href="../networking/index.md">Сеть</a></td></tr></table></div>
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="./Registries.md">Реестры</a></td><td align="center">Следующий раздел<br><a href="./Events.md">События</a></td></tr></table></div>
