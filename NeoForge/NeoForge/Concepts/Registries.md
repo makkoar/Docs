@@ -89,11 +89,11 @@ public ExampleMod(IEventBus modBus) {
 ```
 
 > **Информация:**
-> Существуют специализированные варианты `DeferredRegister` для блоков, предметов и компонентов данных, которые предоставляют вспомогательные методы: [`DeferredRegister.Blocks`](../../blocks/Blocks.md#deferredregisterblocks-helpers), [`DeferredRegister.Items`](../../items/Items.md#deferredregisteritems) и [`DeferredRegister.DataComponents`](../../items/datacomponents.md#creating-custom-data-components) соответственно.
+> Существуют специализированные варианты `DeferredRegister` для блоков, предметов и компонентов данных, которые предоставляют вспомогательные методы: [`DeferredRegister.Blocks`](../Blocks.md#deferredregisterblocks-helpers), [`DeferredRegister.Items`](../../items/Items.md#deferredregisteritems) и [`DeferredRegister.DataComponents`](../../items/datacomponents.md#creating-custom-data-components) соответственно.
 
 ### `RegisterEvent`
 
-`RegisterEvent` — это второй способ регистрации объектов. Это [событие](../events.md) срабатывает для каждого реестра после конструкторов модов (поскольку именно там `DeferredRegister` регистрируют свои внутренние обработчики событий) и перед загрузкой конфигураций. `RegisterEvent` срабатывает на шине событий мода.
+`RegisterEvent` — это второй способ регистрации объектов. Это [событие](./Events.md) срабатывает для каждого реестра после конструкторов модов (поскольку именно там `DeferredRegister` регистрируют свои внутренние обработчики событий) и перед загрузкой конфигураций. `RegisterEvent` срабатывает на шине событий мода.
 
 ```java
 @SubscribeEvent
