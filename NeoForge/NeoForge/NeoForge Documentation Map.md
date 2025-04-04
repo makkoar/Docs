@@ -8,6 +8,7 @@
     *   [Реестры](./Concepts/Registries.md)
     *   [Стороны](./Concepts/Sides.md)
     *   [События](./Concepts/Events.md)
+*   **[Блоки](./Blocks.md)**
 *   **Продвинутые темы**
     *   [Трансформеры доступа](./Advanced%20Topics/Access%20Transformers.md)
 
