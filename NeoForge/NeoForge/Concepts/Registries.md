@@ -327,3 +327,4 @@ public static void onGatherData(GatherDataEvent.Client event) {
 ```
 
 ---
+<div align="center"><table><tr><td align="center">Предыдущий раздел<br><a href="../Getting%20Started/Versioning.md">Версионирование</a></td><td align="center">Следующий раздел<br><a href="./Sides.md">Стороны</a></td></tr></table></div>
