@@ -204,4 +204,4 @@ public void mobDespawn(MobDespawnEvent event) {
 > Планируется, что большинство этих событий будут перенесены на игровую шину событий в будущей версии.
 
 ---
-<div align="center"><table border="1"><tr><td align="center">Предыдущий раздел<br><a href="./Sides.md">Стороны</a></td><td align="center">Следующий раздел<br><a href="../blocks/Blocks.md">Блоки</a></td></tr></table></div>
+<div align="center"><table border="1"><tr><td align="center">Предыдущий раздел<br><a href="./Sides.md">Стороны</a></td><td align="center">Следующий раздел<br><a href="../Blocks.md">Блоки</a></td></tr></table></div>
